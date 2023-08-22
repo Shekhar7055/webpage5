@@ -60,9 +60,18 @@ button:hover{
 /* keep media queries at the bottom */
 /* Medium screens */
 @media all and (min-width:451px) and (max-width:750px){
+#card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,auto);
 
+}
 }
 /* Small screens */
 @media all and (min-width:200px) and (max-width:451px){
-
+#card{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(3, auto);
+}
 }
